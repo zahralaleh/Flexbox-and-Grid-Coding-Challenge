@@ -1,3 +1,3 @@
 # Flexbox and Grid
 
-Experimenting with Flexbox and grid
+Experimenting with Flexbox and Grid
