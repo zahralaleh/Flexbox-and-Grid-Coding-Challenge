@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1200px;
+  display: grid;
+  grid-template-rows: 60px 40px 80px 1fr;
+  grid-template-columns: 250px 250px 1fr;
+  margin: 30px auto;
+  align-items: center;
+  justify-items: center;
+  column-gap: 50px;
+}
+
+.primary-header {
+  font-size: 40px;
+  grid-column: 1/-1;
+}
+
+.author {
+  font-size: 16px;
+  grid-column: 1/-1;
+}
+
+.navigation {
+  background-color: #111;
+  height: 60px;
+  width: 1200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  grid-column: 1/-1;
+}
+
+.link {
+  color: #eee;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 20px 60px;
+}
+
+.primary-img {
+  width: 1200px;
+  border-radius: 10px;
+  grid-column: 1/-1;
+  align-self: center;
+  justify-self: center;
+}
+
+.column {
+  align-self: flex-end;
+  justify-self: start;
+  justify-self: start;
+}
+
+.secondary-header {
+  font-size: 24px;
+  margin-bottom: 11px;
+  margin-top: 44px;
+}
+
+.secondary-img {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.paragraph {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.btn {
+  color: #ddd;
+  background-color: #222;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #222;
+  background-color: #ddd;
+  transition: 0.3s;
+}
